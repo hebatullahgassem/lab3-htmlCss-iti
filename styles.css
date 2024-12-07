@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(15, 15, 15);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 500px;
+  padding-top: 7px;
+  font-size: small;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+}
+
+a:hover{
+  color: yellow;
+}
+
+h3{
+  color: yellow;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+
+#serv{
+  text-align: center;
+  margin-top: 70px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+#serv p{
+  font-style: italic bold;
+  color: gray;
+}
+
+.contents{
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+h2{
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.e{
+width: 135px;
+margin-top: 10px;
+}
+
+.r{
+  width: 115px;
+}
+
+.s{
+  width: 115px;
+}
+
+.contents p{
+  width: 350px;
+  line-height: 25px;
+  color: gray;
+}
+
+.sec{
+  margin-right: 20px;
+}
+
+#teams{
+  text-align: center;
+  margin-top: 100px;
+}
+#teams h1{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+#teams p{
+  font-size: 13px;
+  font-style: italic;
+  color: gray;
+}
+
+
+.team{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: 235px;
+}
+.employee img{
+  width: 150px;
+  border-radius: 110px;
+  border: 6px solid rgb(223, 222, 222);
+}
+.employee h4{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.employee p{
+  margin-top: 0;
+  font-size: 13px;
+  color: gray;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: 25px;
+  width: 120px;
+}
+.icons svg{
+  width: 25px;
+}
+.foot{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.foot p{
+  width: 600px;
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
